@@ -1,10 +1,6 @@
 # Exception Handling in Spring Boot
 
-Exception handling is a critical aspect of building robust and reliable Spring Boot applications. Properly handling exceptions ensures that your application gracefully deals with errors, provides meaningful error messages to users, and facilitates debugging. This README will guide you through best practices for exception handling in a Spring Boot project.
-
-## Exception Hierarchy
-
-Spring Boot uses a well-defined hierarchy of exceptions, with `java.lang.Exception` at the root. Understanding this hierarchy helps in selecting the appropriate exception types to handle specific errors. For example, `RuntimeException`, `DataAccessException`, and `HttpMessageNotReadableException` are commonly used exceptions.
+Exception handling is a critical aspect of building robust and reliable Spring Boot applications. Properly handling exceptions ensures that your application gracefully deals with errors, provides meaningful error messages to users, and facilitates debugging.
 
 ## Global Exception Handling
 
